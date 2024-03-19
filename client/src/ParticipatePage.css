@@ -1,0 +1,113 @@
+.homepage_header {
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  /* Style the input field */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: black;
+  }
+  
+  /* Style the date and time picker container */
+  .datetime-picker-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  /* Style the "Add Reminder" button */
+  .button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Style the reminder cards section */
+  .reminder-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style individual reminder cards */
+  .reminder-card {
+    width: calc(33.33% - 20px);
+    background-color: #f8f8f8;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style reminder title */
+  .reminder-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style reminder time */
+  .reminder-time {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Style the "Delete Reminder" button */
+  .delete-button {
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff2a2a;
+  }
+
+  /* Style the reminder input */
+/* Style the reminder input */
+.reminder-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: black; /* Add this line to set text color to black */
+  }
+  
+  /* Style the reminder date and time picker */
+  .reminder-datepicker {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    background-color: #fff;
+    color: black; /* Add this line to set text color to black */
+  }
